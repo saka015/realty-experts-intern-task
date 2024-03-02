@@ -1,4 +1,5 @@
 import React from "react";
+import { FaStar } from "react-icons/fa6";
 import { useParams } from "react-router-dom"; 
 
 const Profile = () => {
@@ -24,13 +25,30 @@ const Profile = () => {
       </div>
       <div className="right flex-1 ">
         <p className="break-all font-lighter text-lg ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur,
-          non vel illo, suscipit cumque nihil, ducimus temporibus praesentium
-          accusamus facilis. Fuga voluptatem aliquid perferendis temporibus ut
-          accusamus facilis. Fuga voluptatem aliquid temporibus ut sunt dolore
-          accusamus facilis. Fuga voluptatem aliquid temporibus ut sunt dolore
-          soluta id nam, quia in explicabo fugit. Qui tempore assumenda quasiQui
-          tempore assumenda quasi cum iste ad provident dolorum.
+          Location : <b>India</b>
+          <br />
+          Team Members : <b>8-10</b>
+          <br />
+          Ratings :{" "}
+          <b className="text-yellow-400">
+            <FaStar />
+          </b>
+          <b className="text-yellow-400">
+            <FaStar />
+          </b>
+          <b className="text-yellow-400">
+            <FaStar />
+          </b>
+          <b className="text-yellow-400">
+            <FaStar />
+          </b>
+        </p>
+        <p className="text-lg break-all mt-8">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+          eos sit distinctio eaque cumque non est debitis dolorem praesentium
+          quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+          pariatur assumenda cumque, labore ipsam eos quia labore ipsam eos quia
+          quam neque blanditiis
         </p>
         <button className="bg-slate-800 flex-end hover:bg-slate-700 cursor-pointer mt-8 w-full py-4 rounded-md border-none text-gray-300 font-bold tracking-wider text-2xl">
           Contact
