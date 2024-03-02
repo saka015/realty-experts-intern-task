@@ -9,7 +9,11 @@ const RealState = () => {
     { name: "John Doe", pincode: "884603", location: "Delhi" },
     { name: "Jane Smith", pincode: "802155", location: "Mumbai" },
     { name: "Alice Johnson", pincode: "144605", location: "Bangalore" },
+    { name: "John ", pincode: "802155", location: "Mumbai" },
     { name: "Bob Brown", pincode: "635631", location: "Chennai" },
+    { name: "Elon Musk", pincode: "884603", location: "Delhi" },
+    { name: "Mohan Johnson", pincode: "144605", location: "Bangalore" },
+    { name: "Neha Brown", pincode: "635631", location: "Chennai" },
   ];
 
   const handlePincodeChange = (e) => {
